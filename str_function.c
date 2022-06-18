@@ -10,11 +10,11 @@ int _strcmp(char *s1, char *s2)
 {
     int i;
 
-    for (i = 0; s1[i] == s2[i] && s1[i]; i++)
+  for (i = 0; s1[i] == s2[i] && s1[i]; i++)
         ;
-    if (s1[i] > s2[i])
+  if (s1[i] > s2[i])
         return (1);
-    if (s1[i] < s2[i])
+  if (s1[i] < s2[i])
         return (-1);
     return (0);
 }
@@ -29,10 +29,10 @@ int _sch(char *s, char c)
 {
     int cont = 0;
 
-    while (s[cont] != '\0')
+ while (s[cont] != '\0')
     {
-        if (s[cont] == c)
-        {
+  if (s[cont] == c)
+      {
             break;
         }
         cont++;
