@@ -19,9 +19,9 @@ void _div(stack_t **doubly, unsigned int cline)
 
     if (m < 2)
     {
-        dprintf(2, "L%u: can't div, stack too short\n", cline);
-        free_vglo();
-        exit(EXIT_FAILURE);
+dprintf(2, "L%u: can't div, stack too short\n", cline);
+free_vglo();
+exit(EXIT_FAILURE);
     }
 
     if ((*doubly)->n == 0)
